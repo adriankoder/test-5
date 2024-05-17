@@ -21,12 +21,13 @@ if (hovedsideKnapp) {
        
                 // .style.display = "block" // Gjør elementet usynlig
         iframe.style.opacity = 1;
+        // hovedsideKnapp.style.display ="block"
         andini_med_kaninid.style.display = "block";
         Bor_du_i_Bergen.style.display = "block"
         hvor_lenge_har_holt_poID.style.display = "block"
         føler_meg_privilegertP.style.display = "block"
         TrylleshowID.style.display = "none";
-        pElement,this.style.display = "none"
+        pElement.style.display = "none"
         SukkerspinnmaskinIDp.style.display = "none"
         Sukkerspinnmaskin.style.display = "none"
         Ballonggjøglingh2.style.display = "none"
