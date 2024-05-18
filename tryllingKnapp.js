@@ -38,8 +38,9 @@ if (tryllingKnapp) {
             Trylleshow.style.display="block";
             
             // header.style.display = "none"
-            andini_med_kaninid.style.display = "none";
+            andini_med_kaninid.style.opacity =0;
+
             })
-    };
-}
+    }
+};
 export {tryllingKnappFunction}

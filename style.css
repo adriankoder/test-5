@@ -23,10 +23,14 @@ body {
     height: 270px;
     border-radius: 50%;
 }
-button{
+.button2{
     color: white;
     background-color: blue;
 }
+/* .button2{
+    color: white;
+    background-color: rgb(179, 179, 254);   
+} */
 p { 
     font-size: 20px;
     inline-size: 90%;   
@@ -135,7 +139,7 @@ h2
     flex-direction: row;
     justify-content: space-evenly;
 }
-.button{
+.buttondiv{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -180,6 +184,9 @@ border-radius: 50%;
 }
 .hamburgerbutton{
 display: none;
+}
+.color{
+    background-color: rgb(136, 136, 255);
 }
 .iframe{
     border-radius: 50%;

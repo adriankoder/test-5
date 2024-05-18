@@ -23,7 +23,7 @@ const pElement = document.getElementById("pElement")
 
 
 // Setter display-stil på de ulike elementene
-andini_med_kaninid.style.display = "block";
+andini_med_kaninid.style.opacity =1;
 pElement.style.display = "none"
 KontaktIfo2.style.display = "none";
 KontaktConteiner.style.display = "none"; // Sjekk om dette er korrekt ID
@@ -53,6 +53,11 @@ teamSwitch.addEventListener("click", function(){
     teamswitshFunction("sun","moon")
 
 })
+const Hovedside = document.querySelector("#Hovedside")
+Hovedside.addEventListener("click", function(){
+    teamswitshBUTTON("buttonClass","HovedsideButtonClass")
+
+})
 // Import av funksjoner
 import { tryllingKnappFunction } from "./tryllingKnapp.js";
 import { BalonggjøglingFunction } from "./Balonggjøgling.js";
@@ -60,6 +65,7 @@ import { hovedsideKnappfunction } from "./hovedsideKnapp.js";
 import { kontaktKnappfunction } from "./kontaktKnapp.js";
 import { sukkerspinnKnappFunction } from "./sukkerspinnKnapp.js";
 import {teamswitshFunction} from "./teamswitshtoggle.js";
+import {teamswitshBUTTON} from "./KNAPP.JS"
 
 // Kall på funksjoner
 BalonggjøglingFunction();
@@ -68,3 +74,4 @@ kontaktKnappfunction();
 sukkerspinnKnappFunction();
 tryllingKnappFunction();
 teamswitshFunction();
+teamswitshBUTTON();

@@ -29,7 +29,7 @@ if (kontaktKnapp){
     // KontaktIfo2.style.display = "block"
     KontaktConteiner.style.display = "block"
     iframe.style.display = "block"
-    andini_med_kaninid.style.display = "none"
+    andini_med_kaninid.style.opacity = 0
    
     const num1 = "neren";
     const num2 = "anders";

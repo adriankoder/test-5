@@ -1,7 +1,7 @@
 function BalonggjøglingFunction (){
     
     
-const balonggjøglingKnapp = document.getElementById("Balonggjøgling");
+const Balonggjøgling = document.getElementById("Balonggjøgling");
 // const Ballonggjøgling = document.getElementById("Balonggjøgling")
 const andini_med_kaninid = document.getElementById("andini_med_kaninid");
 const Bor_du_i_Bergen = document.getElementById("Bor_du_i_Bergen?")
@@ -39,8 +39,8 @@ if (Balonggjøgling)
         telefon.style.display = "none"
         TryllingID.style.display = "none"
         iframe.style.opacity = 0
-        andini_med_kaninid.style.display = "none"
-        // pElement.style.display ="none"
+        andini_med_kaninid.style.opacity = 0
+        // pElement.style.display ="none
 
         // Ballonggjøgling.style.display = "block"
    

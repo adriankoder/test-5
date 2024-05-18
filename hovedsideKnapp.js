@@ -1,4 +1,4 @@
-function hovedsideKnappfunction(){
+function hovedsideKnappfunction(color,button){
 
 const hovedsideKnapp = document.getElementById("Hovedside");
 const KontaktIfo2 = document.getElementById("KontaktIfo")
@@ -16,13 +16,14 @@ const Ballonggjøglingh2 = document.getElementById("Ballonggjøglingh2")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
 const pElement = document.getElementById("pElement")
 
+// const Hovedside = document.querySelector("#Hovedside")
 if (hovedsideKnapp) {
     hovedsideKnapp.addEventListener("click", function() {
-       
-                // .style.display = "block" // Gjør elementet usynlig
+      
+        
         iframe.style.opacity = 1;
         // hovedsideKnapp.style.display ="block"
-        andini_med_kaninid.style.display = "block";
+        andini_med_kaninid.style.opacity = 1;
         Bor_du_i_Bergen.style.display = "block"
         hvor_lenge_har_holt_poID.style.display = "block"
         føler_meg_privilegertP.style.display = "block"
@@ -36,13 +37,17 @@ if (hovedsideKnapp) {
         TryllingID.style.display ="none"
         Sukkerspinnmaskin.style.display = "none"
         Ballonggjøgling.style.display = "none"
-     
-
         telefon.style.display= "none";
-        // Sett andre elementer til synlige etter behov
-        })
-                // alert("Knappen ble klikket!");
-
     }
+  )}
 };
+
+               
+        // .style.display = "block" // Gjør elementet usynlig
+       
+       
+        // Sett andre elementer til synlige etter behov
+        
+
+
 export {hovedsideKnappfunction}
