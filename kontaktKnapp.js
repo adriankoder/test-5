@@ -85,5 +85,4 @@ pElement.style.display = "block"
     
 }
 
-
 export {kontaktKnappfunction}

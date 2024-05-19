@@ -50,4 +50,5 @@ if (hovedsideKnapp) {
         
 
 
+        
 export {hovedsideKnappfunction}
