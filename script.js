@@ -25,6 +25,7 @@ const pElement = document.getElementById("pElement")
 // Setter display-stil på de ulike elementene
 andini_med_kaninid.style.opacity =1;
 pElement.style.display = "none"
+iframe.style.display = "Block"
 KontaktIfo2.style.display = "none";
 KontaktConteiner.style.display = "none"; // Sjekk om dette er korrekt ID
 telefon.style.display = "none";

@@ -24,6 +24,8 @@ if (hovedsideKnapp) {
         iframe.style.opacity = 1;
         // hovedsideKnapp.style.display ="block"
         andini_med_kaninid.style.opacity = 1;
+        andini_med_kaninid.style.display ="block"
+       
         Bor_du_i_Bergen.style.display = "block"
         hvor_lenge_har_holt_poID.style.display = "block"
         føler_meg_privilegertP.style.display = "block"
@@ -35,7 +37,7 @@ if (hovedsideKnapp) {
         KontaktConteiner.style.display = "none"
         ballonggjimgid.style.display ="none"
         TryllingID.style.display ="none"
-        Sukkerspinnmaskin.style.display = "none"
+        // Sukkerspinnmaskin.style.display = "none"
         Ballonggjøgling.style.display = "none"
         telefon.style.display= "none";
     }
@@ -50,5 +52,5 @@ if (hovedsideKnapp) {
         
 
 
-        
+
 export {hovedsideKnappfunction}

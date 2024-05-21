@@ -23,6 +23,30 @@ body {
     height: 270px;
     border-radius: 50%;
 }
+.TrylleshowDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Bor_du_i_BergenDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BallonggjøglingClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sukkerspinnDIV{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .button2{
     color: white;
     background-color: blue;
@@ -53,6 +77,29 @@ inline-size: 80%;}
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
+    padding-right: 100px;
+    padding-left: 100px;
+    /* padding-right: 150px; */
+}
+.kontakt_meg{
+display: flex;
+flex-direction: column;
+justify-content: start;
+justify-content: space-evenly;
+align-items: start;
+font-size: 100px;
+/* inline-size: 25%; */
+}
+.fixed{
+
+    font-size: 1rem;  
+}
+.pElement{
+    font-size: 1rem; 
+}
+.KontaktConteiner{
+font-size: 1rem;
 }
 .TryllingClass{
     
@@ -100,15 +147,12 @@ h1, h1 {
 }
 
 .Sukkerspinnmaskin{
-    height: 360px;
-    width: auto;
+    height: 330px;
+    width: 430px;
+    border-radius: 50%;
 }
 
 
-/* .KontaktConteiner{
-position: fixed;
-top: 10px;
-} */
 
 .TrylleshowID
 
@@ -159,6 +203,7 @@ h2
     flex-direction: row;
     justify-content: space-evenly;
    align-items: center;
+   justify-content: center;
     padding: 8px;
 }
 .Ballonggjøglingh2{
@@ -171,9 +216,9 @@ h2
 .ballonggj{
     height: 300px;
     width: auto;
-margin-top: -200px;
+/* margin-top: -200px; */
 border-radius: 50%;
-
+margin-bottom: -300px;
 }
 .Ballonggjøgling{
 
@@ -191,7 +236,7 @@ display: none;
 .iframe{
     border-radius: 50%;
     width: 400px;
-    height: 200px;
+    height: 300px;
     /* margin-top: 150px; */
 
 }

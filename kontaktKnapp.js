@@ -18,6 +18,7 @@ if (kontaktKnapp){
     telefon .style.display = "block"
     TryllingID.style.display = "none";
     iframe.style.opacity = 1
+    iframe.style.display ="block"
     Bor_du_i_Bergen.style.display = "none"
     hvor_lenge_har_holt_poID.style.display = "none"
     Ballonggjøglingh2.style.display = "none"
@@ -28,8 +29,8 @@ if (kontaktKnapp){
     Ballonggjøgling.style.display = "none"
     // KontaktIfo2.style.display = "block"
     KontaktConteiner.style.display = "block"
-    iframe.style.display = "block"
-    andini_med_kaninid.style.opacity = 0
+    // iframe.style.display = "block"
+    andini_med_kaninid.style.display = "none"
    
     const num1 = "neren";
     const num2 = "anders";
@@ -54,7 +55,7 @@ if (kontaktKnapp){
     // document.body.appendChild(pElement);
     pElement.style.zIndex = '1000'; // High z-index to ensure it appears on top
 // pElement.style.left = '50%'; // Centering horizontally
-pElement.style.top = '60px';
+// pElement.style.top = '60px';
 pElement.style.display = "block"
     // Ensure this script runs after the HTML elements are parsed
 // document.addEventListener('DOMContentLoaded', function() {

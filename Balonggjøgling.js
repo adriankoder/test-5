@@ -33,14 +33,13 @@ if (Balonggjøgling)
         TrylleshowID.style.display = "none";
         //KontaktIfo2.style.display = "none"
         footer.style.display = "none"
-       
         hvor_lenge_har_holt_poID.style.display = "none"
         SukkerspinnmaskinIDp.style.display = "none"
         telefon.style.display = "none"
         TryllingID.style.display = "none"
         iframe.style.opacity = 0
-        andini_med_kaninid.style.opacity = 0
-        // pElement.style.display ="none
+        andini_med_kaninid.style.display = "none"
+        pElement.style.display ="none"
 
         // Ballonggjøgling.style.display = "block"
    

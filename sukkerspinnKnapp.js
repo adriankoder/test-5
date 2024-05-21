@@ -27,8 +27,8 @@ if(sukkerspinnKnapp){
         // //KontaktIfo2.style.display = "none"
         footer.style.display = "none"
         hvor_lenge_har_holt_poID.style.display = "none"
-        andini_med_kaninid.style.opacity =0
-        iframe.style.opacity = 0
+        andini_med_kaninid.style.display = "none"
+        iframe.style.opacity = 1
         telefon.style.display ="none"
         pElement.style.display ="none"
         SukkerspinnmaskinH2.style.display = "none"
