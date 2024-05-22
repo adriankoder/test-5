@@ -106,7 +106,17 @@ flex-direction: column;}
         margin-bottom: 100px;
         margin-top: 0px;
     }
-
+.Sukkerspinnmaskin{
+    width: 250px;
+height: 150px;
+}
+.ballonggj{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
     .andini_tryllekunstneren{
         display: flex;
         flex-direction: column;

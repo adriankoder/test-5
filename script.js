@@ -67,7 +67,7 @@ import { kontaktKnappfunction } from "./kontaktKnapp.js";
 import { sukkerspinnKnappFunction } from "./sukkerspinnKnapp.js";
 import {teamswitshFunction} from "./teamswitshtoggle.js";
 import {teamswitshBUTTON} from "./KNAPP.JS"
-
+import {hamburgertoggle} from "./hamburgermeny.js"
 // Kall på funksjoner
 BalonggjøglingFunction();
 hovedsideKnappfunction();
@@ -76,3 +76,5 @@ sukkerspinnKnappFunction();
 tryllingKnappFunction();
 teamswitshFunction();
 teamswitshBUTTON();
+hamburgertoggle();
+
