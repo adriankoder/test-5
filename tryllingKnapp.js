@@ -15,11 +15,12 @@ const Ballonggjøgling = document.getElementById("Ballonggjøglingp")
 const Ballonggjøglingh2 =document.getElementById("Ballonggjøglingh2")
 const SukkerspinnmaskinIDp = document.getElementById("SukkerspinnmaskinIDp")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
-const ballonggjimgid = document.getElementById("ballonggjimgid")
+
 if (tryllingKnapp) {
     tryllingKnapp.addEventListener("click", function() {
             
-            ballonggjimgid.style.display = "none"
+          
+           
             Bor_du_i_Bergen.style.display="none";
             KontaktConteiner.style.display="none";
             SukkerspinnmaskinIDp.style.display= "none";
@@ -37,7 +38,6 @@ if (tryllingKnapp) {
             Trylleshow.style.display="block";
             
             // header.style.display = "none"
-            andini_med_kaninid.style.display ="block"
             andini_med_kaninid.style.opacity =0;
 
             })

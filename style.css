@@ -231,6 +231,10 @@ display: none;
 .color{
     background-color: rgb(136, 136, 255);
 }
+.Hovedside{
+    background-color: rgb(136, 136, 255);
+ 
+}
 .iframe{
     border-radius: 50%;
     width: 400px;

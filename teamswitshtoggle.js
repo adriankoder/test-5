@@ -9,12 +9,12 @@ function teamswitshFunction (moon,sun) {
         body.classList.remove(moon)
         body.classList.add(sun)
         console.log("lite")
-        teamSwitchToggle.src = "sun.png"
+        teamSwitchToggle.src = "./asset/sun.png"
 
     } else if (body.classList.contains(sun)){
         body.classList.remove(sun)
         body.classList.add(moon)
-        teamSwitchToggle.src = "moon (1).png"
+        teamSwitchToggle.src = "./asset/moon (1).png"
 console.log("dark")
     }else{
           console.log("somting is wrong")
