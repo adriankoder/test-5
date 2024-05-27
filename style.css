@@ -47,7 +47,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.button2{
+.Trylling{
     color: white;
     background-color: blue;
 }
@@ -178,7 +178,7 @@ h2
     justify-content: center;
     align-items: center;
 }
-.div2 {
+.bilder {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

@@ -1,12 +1,12 @@
 
-import { tryllingKnappFunction } from "./tryllingKnapp.js";
-import { BalonggjøglingFunction } from "./Balonggjøgling.js";
-import { hovedsideKnappfunction } from "./hovedsideKnapp.js";
-import { kontaktKnappfunction } from "./kontaktKnapp.js";
-import { sukkerspinnKnappFunction } from "./sukkerspinnKnapp.js";
-import {teamswitshFunction} from "./teamswitshtoggle.js";
-import {teamswitshBUTTON} from "./KNAPP.JS"
-import {hamburgertoggle} from "./hamburgermeny.js"
+import { tryllingKnappFunction } from "./js/tryllingKnapp.js";
+import { BalonggjøglingFunction } from "./js/Balonggjøgling.js";
+import { hovedsideKnappfunction } from "./js/hovedsideKnapp.js";
+import { kontaktKnappfunction } from "./js/kontaktKnapp.js";
+import { sukkerspinnKnappFunction } from "./js/sukkerspinnKnapp.js";
+import {teamswitshFunction} from "./js/teamswitshtoggle.js";
+import {teamswitshBUTTON} from "./js/KNAPP.JS"
+import { hamburgertoggle } from './js/hamburgermeny.js';
 // Få tak i knappelementene
 const TrylleshowID = document.getElementById("TrylleshowID");
 const telefon = document.getElementById("littImfo");
