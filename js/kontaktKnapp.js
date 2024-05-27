@@ -3,25 +3,25 @@ function kontaktKnappfunction (){
 const andini_med_kaninid = document.getElementById('andini_med_kaninid');
 const footer = document.getElementById("føler_meg_privilegertP")
 const TryllingID = document.getElementById("TryllingID")
-const telefon = document.getElementById("littImfo")
+// const telefon = document.getElementById("littImfo")
 const iframe = document.getElementById ("iframe")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
-
-const pElement = document.getElementById("pElement")
+const kontakt_meg = document.getElementById ("kontakt_meg")
+// const pElement = document.getElementById("pElement")
 const SUKKER_BALONG_hvor_lenge = document.getElementById ("SUKKER_BALONG_hvor_lenge")
 
 if (kontaktKnapp){
     kontaktKnapp.addEventListener("click", function() {
-    telefon .style.display = "block"
+    // telefon .style.display = "block"
     TryllingID.style.display = "none";
     iframe.style.opacity = 1
     iframe.style.display ="block"
-   
+    kontakt_meg.style.display = "block"
 
     footer.style.display = "none"
     Sukkerspinnmaskin.style.display ="none"
-    Ballonggjøgling.style.display = "none"
-    KontaktConteiner.style.display = "block"
+    // Ballonggjøgling.style.display = "none"
+    // KontaktConteiner.style.display = "block"
     andini_med_kaninid.style.display = "none"
     SUKKER_BALONG_hvor_lenge.style.display = "none"
    
