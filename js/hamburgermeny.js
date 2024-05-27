@@ -1,6 +1,6 @@
 function hamburgertoggle (active,hidden) {
     //get  a element from html
-    const ul = document.querySelector("#button")
+    const ul = document.querySelector("#buttondiv")
     console.log(ul)
         //set up a if/else statment to check wat 
     if (ul.classList.contains(active)){

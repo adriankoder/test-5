@@ -18,7 +18,7 @@ const ballonggjimgid =document.getElementById("ballonggjimgid")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
 
 if (Balonggjøgling)
-    Balonggjøgling.addEventListener("click", function() {
+    Balonggjøgling.addEventListener("mouseover", function() {
         // Ballonggjøgling.style.display =="block" 
         Ballonggjøglingph2.style.display = "block";
         Ballonggjøglingp.style.display = "block";

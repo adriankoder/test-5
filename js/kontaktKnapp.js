@@ -11,7 +11,7 @@ const kontakt_meg = document.getElementById ("kontakt_meg")
 const SUKKER_BALONG_hvor_lenge = document.getElementById ("SUKKER_BALONG_hvor_lenge")
 
 if (kontaktKnapp){
-    kontaktKnapp.addEventListener("click", function() {
+    kontaktKnapp.addEventListener("mouseover", function() {
     // telefon .style.display = "block"
     TryllingID.style.display = "none";
     iframe.style.opacity = 1

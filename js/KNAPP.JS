@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const buttons = document.querySelectorAll(".test");
 
     buttons.forEach(button => {
-        button.addEventListener("click", () => {
+        button.addEventListener("mouseover", () => {
             resetButtons(buttons, originalButtonClass, buttonClass);
             teamswitshBUTTON(button, buttonClass, originalButtonClass);
         });

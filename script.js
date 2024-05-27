@@ -35,7 +35,7 @@ const pElement = document.getElementById("pElement")
 andini_med_kaninid.style.opacity =1;
 pElement.style.display = "none"
 iframe.style.display = "Block"
-KontaktIfo2.style.display = "none";
+// KontaktIfo.style.display = "none";
 KontaktConteiner.style.display = "none"; // Sjekk om dette er korrekt ID
 telefon.style.display = "none";
 TrylleshowID.style.display = "none";
@@ -63,6 +63,8 @@ teamSwitch.addEventListener("click", function(){
     teamswitshFunction("sun","moon")
 
 })
+
+
 const Hovedside = document.querySelector("#Hovedside")
 Hovedside.addEventListener("click", function(){
     teamswitshBUTTON("buttonClass","HovedsideButtonClass")

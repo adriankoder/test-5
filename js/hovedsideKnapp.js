@@ -19,7 +19,7 @@ const kontakt_meg = document.getElementById ("kontakt_meg")
 
 // const Hovedside = document.querySelector("#Hovedside")
 if (hovedsideKnapp) {
-    hovedsideKnapp.addEventListener("click", function() {
+    hovedsideKnapp.addEventListener("mouseover", function() {
       
         
         iframe.style.opacity = 1;
