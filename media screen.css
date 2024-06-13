@@ -1,5 +1,8 @@
 
 @media screen and (max-width: 320px) {
+    body{
+        margin: 0;
+    }
     .button{
         display: none;
     }
@@ -51,8 +54,8 @@
     }
 
     .due {
-        height: auto;
-        width: auto;
+        height: 500px;
+        width: 300px;
     }
 
     header {
@@ -70,10 +73,16 @@
     }
 
     .show {
-        height: auto;
-        width: auto;
+        height: 500px;
+        width: 300px;
     }
-
+.andini_tryllekunstneren{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-right: 0px;
+padding-left: 0px;
+}
     .div4 {
         height: auto;
         width: auto;
@@ -101,7 +110,10 @@
         margin-top: 0px;
     }
 
-
+.andini_med_kaninid{
+height: 150px;
+width: auto;
+}
 
 /* .headerContent{
 display: flex;
@@ -122,4 +134,10 @@ justify-content: start;} */
 /* .header {
     display: none;
  }
+}
+*/ 
+.section_Hedder{
+    display: flex;
+    flex-direction: column;
+
 }

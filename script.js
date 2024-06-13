@@ -45,20 +45,25 @@ hvor_lenge_har_holt_poID.style.display = "block";
 const hamburgerimg = document.querySelector("#hamburgermeny");
 console.log(hamburgerimg);
 
-hamburgerimg.addEventListener("click", function(){
-    hamburgertoggle("active","hidden");
+hamburgerimg.addEventListener("click", function() {
+    hamburgertoggle("active", "hidden");
+
+    // Samle alle elementene som vi vil legge til hendelseslyttere på
+    const elements = document.querySelectorAll("#teamSwitch, #Hovedside");
+
+    elements.forEach(element => {
+        if (element.id === "teamSwitch") {
+            element.addEventListener("click", function() {
+                teamswitshFunction("sun", "moon");
+            });
+        } else if (element.id === "Hovedside") {
+            element.addEventListener("click", function() {
+                teamswitshBUTTON("buttonClass", "HovedsideButtonClass");
+            });
+        }
+    });
 });
-const teamSwitch = document.querySelector("#teamSwitch")
 
-teamSwitch.addEventListener("click", function(){
-    teamswitshFunction("sun","moon")
-
-})
-const Hovedside = document.querySelector("#Hovedside")
-Hovedside.addEventListener("click", function(){
-    teamswitshBUTTON("buttonClass","HovedsideButtonClass")
-
-})
 // Import av funksjoner
 import { tryllingKnappFunction } from "./tryllingKnapp.js";
 import { BalonggjøglingFunction } from "./Balonggjøgling.js";
