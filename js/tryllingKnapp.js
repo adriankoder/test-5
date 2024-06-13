@@ -17,7 +17,7 @@ const SukkerspinnmaskinIDp = document.getElementById("SukkerspinnmaskinIDp")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
 
 if (tryllingKnapp) {
-    tryllingKnapp.addEventListener("click", function() {
+    tryllingKnapp.addEventListener("mouseover", function() {
             
           
            

@@ -16,7 +16,7 @@ const Ballonggjøglingh2 = document.getElementById("Ballonggjøglingh2")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
 const ballonggjimgid = document.getElementById("ballonggjimgid")
 if(sukkerspinnKnapp){
-    sukkerspinnKnapp.addEventListener("click", function(){
+    sukkerspinnKnapp.addEventListener("mouseover", function(){
         
         Ballonggjøgling.style.display = "none"
         TrylleshowID.style.display = "none"

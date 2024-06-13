@@ -11,15 +11,14 @@ const iframe = document.getElementById("iframe")
 const telefon = document.getElementById("littImfo")
 const SukkerspinnmaskinIDp = document.getElementById ("SukkerspinnmaskinIDp")
 const pElement = document.getElementById ("pElement")
-const TryllingID = document.getElementById ("TryllingID")
+const TryllingID = document.getElementById ("TrylleshowID")
 const Ballonggjøglingph2 = document.getElementById("Ballonggjøglingh2")
 const Ballonggjøglingp = document.getElementById("Ballonggjøglingp")
-const hvor_lenge_har_holt_poID = document.getElementById("hvor_lenge_har_holt_poID")
 const ballonggjimgid =document.getElementById("ballonggjimgid")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
 
 if (Balonggjøgling)
-    Balonggjøgling.addEventListener("click", function() {
+    Balonggjøgling.addEventListener("mouseover", function() {
         // Ballonggjøgling.style.display =="block" 
         Ballonggjøglingph2.style.display = "block";
         Ballonggjøglingp.style.display = "block";
@@ -33,7 +32,6 @@ if (Balonggjøgling)
         TrylleshowID.style.display = "none";
         //KontaktIfo2.style.display = "none"
         footer.style.display = "none"
-        hvor_lenge_har_holt_poID.style.display = "none"
         SukkerspinnmaskinIDp.style.display = "none"
         telefon.style.display = "none"
         TryllingID.style.display = "none"

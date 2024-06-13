@@ -1,0 +1,6 @@
+der du ønsker å ha display none rapp eller 
+søskenelementene i en div og sett opp en div på den så forsviinner 
+alle barna uten om per han bøyde seg ned på sine knær
+
+
+komentarer = less is more , gode navn på ting

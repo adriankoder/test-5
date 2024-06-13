@@ -1,3 +1,12 @@
+
+import { tryllingKnappFunction } from "./js/tryllingKnapp.js";
+import { BalonggjøglingFunction } from "./js/Balonggjøgling.js";
+import { hovedsideKnappfunction } from "./js/hovedsideKnapp.js";
+import { kontaktKnappfunction } from "./js/kontaktKnapp.js";
+import { sukkerspinnKnappFunction } from "./js/sukkerspinnKnapp.js";
+import {teamswitshFunction} from "./js/teamswitshtoggle.js";
+import {teamswitshBUTTON} from "./js/KNAPP.JS"
+import { hamburgertoggle } from './js/hamburgermeny.js';
 // Få tak i knappelementene
 const TrylleshowID = document.getElementById("TrylleshowID");
 const telefon = document.getElementById("littImfo");
@@ -26,7 +35,7 @@ const pElement = document.getElementById("pElement")
 andini_med_kaninid.style.opacity =1;
 pElement.style.display = "none"
 iframe.style.display = "Block"
-KontaktIfo2.style.display = "none";
+// KontaktIfo.style.display = "none";
 KontaktConteiner.style.display = "none"; // Sjekk om dette er korrekt ID
 telefon.style.display = "none";
 TrylleshowID.style.display = "none";
@@ -64,14 +73,21 @@ hamburgerimg.addEventListener("click", function() {
     });
 });
 
+<<<<<<< HEAD
+=======
+teamSwitch.addEventListener("click", function(){
+    teamswitshFunction("sun","moon")
+
+})
+
+
+const Hovedside = document.querySelector("#Hovedside")
+Hovedside.addEventListener("click", function(){
+    teamswitshBUTTON("buttonClass","HovedsideButtonClass")
+
+})
+>>>>>>> 1ea8c4c5b6044fbca2fa41713aa7bdfe5d050808
 // Import av funksjoner
-import { tryllingKnappFunction } from "./tryllingKnapp.js";
-import { BalonggjøglingFunction } from "./Balonggjøgling.js";
-import { hovedsideKnappfunction } from "./hovedsideKnapp.js";
-import { kontaktKnappfunction } from "./kontaktKnapp.js";
-import { sukkerspinnKnappFunction } from "./sukkerspinnKnapp.js";
-import {teamswitshFunction} from "./teamswitshtoggle.js";
-import {teamswitshBUTTON} from "./KNAPP.JS"
 
 // Kall på funksjoner
 BalonggjøglingFunction();
@@ -81,3 +97,5 @@ sukkerspinnKnappFunction();
 tryllingKnappFunction();
 teamswitshFunction();
 teamswitshBUTTON();
+hamburgertoggle();
+
