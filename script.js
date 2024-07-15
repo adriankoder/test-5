@@ -138,6 +138,7 @@ for (let i = 0; i < menyknapper.length; i++) {
 const hamburgerimg = document.querySelector("#hamburgermeny");
 // console.log(hamburgerimg);
 
+<<<<<<< HEAD
 hamburgerimg.addEventListener("click", function () {
   hamburgertoggle("active", "hidden");
 });
@@ -151,6 +152,41 @@ const Hovedside = document.querySelector("#Hovedside");
 Hovedside.addEventListener("click", function () {
   //teamswitshBUTTON("buttonClass", "HovedsideButtonClass");
 });
+=======
+hamburgerimg.addEventListener("click", function() {
+    hamburgertoggle("active", "hidden");
+
+    // Samle alle elementene som vi vil legge til hendelseslyttere på
+    const elements = document.querySelectorAll("#teamSwitch, #Hovedside");
+
+    elements.forEach(element => {
+        if (element.id === "teamSwitch") {
+            element.addEventListener("click", function() {
+                teamswitshFunction("sun", "moon");
+            });
+        } else if (element.id === "Hovedside") {
+            element.addEventListener("click", function() {
+                teamswitshBUTTON("buttonClass", "HovedsideButtonClass");
+            });
+        }
+    });
+});
+
+<<<<<<< HEAD
+=======
+teamSwitch.addEventListener("click", function(){
+    teamswitshFunction("sun","moon")
+
+})
+
+
+const Hovedside = document.querySelector("#Hovedside")
+Hovedside.addEventListener("click", function(){
+    teamswitshBUTTON("buttonClass","HovedsideButtonClass")
+
+})
+>>>>>>> 1ea8c4c5b6044fbca2fa41713aa7bdfe5d050808
+>>>>>>> 9b12ee65530fde04ea6aee261e4b854139b16ffe
 // Import av funksjoner
 
 // // Kall på funksjoner

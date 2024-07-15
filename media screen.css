@@ -1,9 +1,21 @@
 
 @media screen and (max-width: 320px) {
+<<<<<<< HEAD
 body {
 margin: 0;
 }
+=======
+<<<<<<< HEAD
+    body{
+        margin: 0;
+    }
+    .button{
+        display: none;
+    }
+=======
+>>>>>>> 9b12ee65530fde04ea6aee261e4b854139b16ffe
 
+>>>>>>> 1ea8c4c5b6044fbca2fa41713aa7bdfe5d050808
     .hamburgerbutton{
     display: block;
     width: 32px;
@@ -59,9 +71,14 @@ flex-direction: column;} */
     }
 
     .due {
+<<<<<<< HEAD
         height: auto;
         width: 
         200px;
+=======
+        height: 500px;
+        width: 300px;
+>>>>>>> 9b12ee65530fde04ea6aee261e4b854139b16ffe
     }
 
     header {
@@ -79,6 +96,7 @@ flex-direction: column;} */
     }
 
     .show {
+<<<<<<< HEAD
         height: auto;
         width: 200px;
     }
@@ -86,6 +104,17 @@ flex-direction: column;} */
 {
     font-size: 10px;
     inline-size: 200px;
+=======
+        height: 500px;
+        width: 300px;
+    }
+.andini_tryllekunstneren{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-right: 0px;
+padding-left: 0px;
+>>>>>>> 9b12ee65530fde04ea6aee261e4b854139b16ffe
 }
     .div4 {
         height: auto;
@@ -120,6 +149,13 @@ flex-direction: column;} */
         margin-bottom: 100px;
         margin-top: 0px;
     }
+<<<<<<< HEAD
+
+.andini_med_kaninid{
+height: 150px;
+width: auto;
+}
+=======
 .Sukkerspinnmaskin{
     width: 250px;
     height: 150px;
@@ -141,6 +177,7 @@ flex-direction: column;} */
         padding-left: 0px;
         margin: 0;
     }
+>>>>>>> 1ea8c4c5b6044fbca2fa41713aa7bdfe5d050808
 
 /* .headerContent{
 display: flex;
@@ -161,4 +198,10 @@ justify-content: start;} */
 /* .header {
     display: none;
  }
+}
+*/ 
+.section_Hedder{
+    display: flex;
+    flex-direction: column;
+
 }
