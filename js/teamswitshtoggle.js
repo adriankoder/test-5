@@ -2,7 +2,7 @@ function teamswitshFunction (moon,sun) {
     //get  a elemen from html
     const body = document.querySelector("#body")
     const teamSwitchToggle = document.querySelector("#teamSwitch")
-    console.log(body)
+    
         //set up a if/else statment to check wat 
         console.log(body)
     if (body.classList.contains(moon)){

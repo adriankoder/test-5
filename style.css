@@ -1,246 +1,248 @@
-*{box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 body {
-    margin: 0;
+  margin: 0;
 }
-.sun{
-        background-color: white;
-        color: black;
-        
-    }
-.moon{
-    background-color: black;
-    color: white;
-    text-shadow: blue 9px 2px;
+.sun {
+  background-color: white;
+  color: black;
 }
-.iconzize{
-    width: 50px;
-    height: 50px;
+.moon {
+  background-color: black;
+  color: white;
+  text-shadow: blue 9px 2px;
 }
-.andini_med_kaninid {
-    /* display: flex;
+.iconzize {
+  width: 50px;
+  height: 50px;
+}
+.andini_med_kanin {
+  /* display: flex;
     flex-direction: column; */
-    width: 370px;
-    height: 270px;
-    border-radius: 50%;
+  width: 370px;
+  height: 270px;
+  border-radius: 50%;
 }
-.TrylleshowDiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.TrylleshowDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.Bor_du_i_BergenDiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.Bor_du_i_BergenDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.BallonggjøglingClass{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.BallonggjøglingClass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.sukkerspinnDIV{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.sukkerspinnDIV {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.button2{
-    color: white;
-    background-color: blue;
+.button2 {
+  color: white;
+  background-color: blue;
 }
 /* .button2{
     color: white;
     background-color: rgb(179, 179, 254);   
 } */
-p { 
-    font-size: 20px;
-    inline-size: 90%;   
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-inline-size: 80%;}
+p {
+  font-size: 20px;
+  /* inline-size: 90%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* inline-size: 80%; */
+}
 
-.Bor_du_i_Bergen{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+.Bor_du_i_Bergen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.andini_tryllekunstneren{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-right: 100px;
-    padding-left: 150px;
-    /* padding-right: 150px; */
+.andini_tryllekunstneren {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-right: 100px;
+    padding-left: 150px; */
+  /* padding-right: 150px; */
 }
-.kontakt_meg{
-display: flex;
-flex-direction: column;
-justify-content: start;
-justify-content: space-evenly;
-align-items: start;
-font-size: 100px;
-/* inline-size: 25%; */
+/* .pElement {
+  inline-size: 25rem;
+} */
+.fixed {
+  font-size: 1rem;
 }
-.fixed{
-
-    font-size: 1rem;  
+.pElement {
+  display: none;
 }
-.pElement{
-    font-size: 1rem; 
+.KontaktConteiner {
+  font-size: 1rem;
 }
-.KontaktConteiner{
-font-size: 1rem;
-}
-.TryllingClass{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.TryllingClass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .andini {
-    font-size: 130px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    margin: 5px;
-    margin-bottom: 100px;
+  font-size: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  margin-bottom: 100px;
 }
 
 .hvor_lenge_har_holt_po {
-   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h1, h1 {
- 
-    font-family: monospace;
+h1,
+h1 {
+  font-family: monospace;
 }
 
 .Tryllekunstneren {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .anders-tørkle {
-    height: 500px;
-    width: auto;
+  width: 370px;
+  height: 270px;
 }
 
-.SukkerspinnmaskinClass{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.SukkerspinnmaskinClass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.Sukkerspinnmaskin{
-    height: 330px;
-    width: 430px;
-    border-radius: 50%;
+/* .Sukkerspinnmaskin {
+  width: 370px;
+  height: 270px;
+  border-radius: 50%;
+} */
+
+.TrylleshowID {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-
-
-.TrylleshowID
-
-{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;}
 .show {
-    height: 500px;
-    width: auto;
+  width: 370px;
+  height: 270px;
 }
-
 
 .due {
-    height: 500px;
-    width: auto;
+  width: 370px;
+  height: 270px;
 }
-h2
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .div2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-.buttondiv{
+.buttondiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.Bor_du_i_Bergen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .section_Hedder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+} */
+
+/* .overskrift_2{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly; */
+/* align-items: center; */
+/* font-size: 100px;
     margin-top: 0px;
-
+} */
+.overskrift {
+    /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 100px;
+  margin-top: 0px;
 }
-.Bor_du_i_Bergen{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.Ballonggjøglingh2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
- .section_Hedder{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-   align-items: center;
-   justify-content: center;
-    padding: 8px;
+.ballonggj {
+  width: 370px;
+  height: 270px;
+  /* margin-top: -200px; */
+  border-radius: 50%;
 }
-.Ballonggjøglingh2{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.Ballonggjøgling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.ballonggj{
-    width: 370px;
-    height: 270px;
-/* margin-top: -200px; */
-border-radius: 50%;}
-.Ballonggjøgling{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.hamburgerbutton {
+  display: none;
 }
-.hamburgerbutton{
-display: none;
+.color {
+  background-color: rgb(136, 136, 255);
 }
-.color{
-    background-color: rgb(136, 136, 255);
+.Hovedside {
+  background-color: rgb(136, 136, 255);
 }
-.Hovedside{
-    background-color: rgb(136, 136, 255);
- 
-}
-.iframe{
-    border-radius: 50%;
-    width: 400px;
-    height: 300px;
-    /* margin-top: 150px; */
-
+.iframe {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  border-radius: 50%;
+  width: 400px;
+  height: 300px;
+  /* margin-top: 150px; */
 }
 /* .andini-med-kanin2{
     display: flex;
@@ -248,3 +250,11 @@ display: none;
     justify-content: start;
     align-items: start;   
 } */
+.Sukkerspinnmaskin {
+  display: none;
+}
+
+.kontaktinfo {
+  margin: 0px;
+  font-size: 25px;
+max-width: 10rem;}

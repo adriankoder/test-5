@@ -1,5 +1,8 @@
 
 @media screen and (max-width: 320px) {
+body {
+margin: 0;
+}
 
     .hamburgerbutton{
     display: block;
@@ -29,9 +32,9 @@
        justify-content: center;
        align-items: center;  
 }
-.section_Hedder{
+/* .section_Hedder{
     display: flex;
-flex-direction: column;}
+flex-direction: column;} */
     .andini_med_kaninid{
         width: 200px;
         height: 100px;
@@ -57,7 +60,8 @@ flex-direction: column;}
 
     .due {
         height: auto;
-        width: auto;
+        width: 
+        200px;
     }
 
     header {
@@ -69,16 +73,20 @@ flex-direction: column;}
         flex-direction: row;
         justify-content: space-evenly;
         justify-content: center;
-        height: 70%;
-        width: 70%;
-        margin-left: 15%;
+        height: auto;
+        width: 200px;
+        /* margin-left: 15%; */
     }
 
     .show {
         height: auto;
-        width: auto;
+        width: 200px;
     }
-
+.BallonggjøglingClass
+{
+    font-size: 10px;
+    inline-size: 200px;
+}
     .div4 {
         height: auto;
         width: auto;
@@ -95,6 +103,13 @@ flex-direction: column;}
         margin-top: 300px;
     }
 
+    .sukkerspinnDIV{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    font-size: 12px;}
+
     h1, h1 {
         font-size: 70px;
         margin-top: 0px;
@@ -107,7 +122,7 @@ flex-direction: column;}
     }
 .Sukkerspinnmaskin{
     width: 250px;
-height: 150px;
+    height: 150px;
 }
 .ballonggj{
     width: 200px;
@@ -118,12 +133,13 @@ height: 150px;
 }
     .andini_tryllekunstneren{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
         padding-right: 0px;
-        padding-left: 0px;    
+        padding-left: 0px;
+        margin: 0;
     }
 
 /* .headerContent{
