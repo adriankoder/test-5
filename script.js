@@ -1,31 +1,27 @@
-
 import { teamswitshFunction } from "./js/teamswitshtoggle.js";
 import { teamswitshBUTTON } from "./js/KNAPP.JS";
 
 const TryllingID = document.getElementById("TryllingID");
 
-
-
 let menyknapper = document.getElementsByClassName("menyvalg");
 let bildeSomByttes = document.getElementById("andini_med_kanin");
-let kontaktInfo = document.getElementById("kontaktinfo")
-
+let kontaktInfo = document.getElementById("kontaktinfo");
 
 for (let i = 0; i < menyknapper.length; i++) {
-
   menyknapper[i].addEventListener("mouseover", (e) => {
-
-    
-    if (e.target.id === "Hovedside") {   //HOVEDSIDEKNAPP
+    if (e.target.id === "Hovedside") {
+      //HOVEDSIDEKNAPP
       bildeSomByttes.src = "./asset/andini-med-kanin.jpg";
       TryllingID.innerHTML = `
           <h2>Hovedside</h2>
           <p>Bor du i Bergen eller omegn og skal feire bursdag, holde firmafest,
           lage til juletrefest eller andre barnearrangement Jeg har drevet med
           Sett prikken over i-en med et fortryllende barne- og familieshow.</p>
-          `;    }
+          `;
+    }
 
-    if (e.target.id === "Trylling") {  //TRYLLINGKNAPP
+    if (e.target.id === "Trylling") {
+      //TRYLLINGKNAPP
       bildeSomByttes.src = "/asset/andini-med-kanin.jpg";
       bildeSomByttes.style.opacity = 0;
       TryllingID.innerHTML = `
@@ -41,12 +37,13 @@ for (let i = 0; i < menyknapper.length; i++) {
           og/eller trylleduene Trylleliten og Spirrevippen. Jeg bretter ca 50-60
           ballonger pr halvtime. Ved behov, medbringer jeg eget trådløst
           mini-micanlegg</p>
-          `
+          `;
     } else {
       bildeSomByttes.style.opacity = 1;
     }
 
-    if (e.target.id === "Balonggjøgling") {  //GJØGLINGKNAPP
+    if (e.target.id === "Balonggjøgling") {
+      //GJØGLINGKNAPP
       bildeSomByttes.src = "./asset/ballonggj.jpg";
       TryllingID.innerHTML = `
           <h2>Ballonggjøgling</h2>
@@ -56,7 +53,8 @@ for (let i = 0; i < menyknapper.length; i++) {
           `;
     }
 
-    if (e.target.id === "Sukkerspinn") {  //SUKKERSPINNKNAPP
+    if (e.target.id === "Sukkerspinn") {
+      //SUKKERSPINNKNAPP
       bildeSomByttes.src = "./asset/sukkerspinn (1).bmp";
       TryllingID.innerHTML = `
           <h2>Sukkerspinnmaskin</h2>
@@ -72,7 +70,8 @@ for (let i = 0; i < menyknapper.length; i++) {
           `;
     }
 
-    if (e.target.id === "Kontakt") { //KONTAKTKNAPP
+    if (e.target.id === "Kontakt") {
+      //KONTAKTKNAPP
       bildeSomByttes.style.display = "none";
       TryllingID.innerHTML = ``;
 
@@ -113,7 +112,6 @@ for (let i = 0; i < menyknapper.length; i++) {
     }
   });
 }
-
 
 // Setter display-stil på de ulike elementene
 // andini_med_kanin.style.opacity = 1;
@@ -163,8 +161,3 @@ Hovedside.addEventListener("click", function () {
 // teamswitshBUTTON();
 // hamburgertoggle();
 //test();
-
-
-
-
-
