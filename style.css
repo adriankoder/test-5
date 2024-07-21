@@ -199,12 +199,13 @@ h2 {
     margin-top: 0px;
 } */
 .overskrift {
-    /* width: 100%; */
+  /* width: 100%; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 100px;
+  font-size: 100%;
+
   margin-top: 0px;
 }
 .Ballonggjøglingh2 {
@@ -257,4 +258,5 @@ h2 {
 .kontaktinfo {
   margin: 0px;
   font-size: 25px;
-max-width: 10rem;}
+  max-width: 26rem;
+}
