@@ -133,19 +133,36 @@ for (let i = 0; i < menyknapper.length; i++) {
 // hvor_lenge_har_holt_poID.style.display = "block";
 
 // Lytte etter klikk på hamburgermeny-knappen
-const hamburgerimg = document.querySelector("#hamburgermeny");
+const hamburgerimg = document.getElementById("hamburgermeny");
 // console.log(hamburgerimg);
 
 hamburgerimg.addEventListener("click", function () {
   hamburgertoggle("active", "hidden");
+  function hamburgertoggle(active, hidden) {
+    //get  a element from html
+    const ul = document.getElementById("buttondiv");
+    // console.log(ul)
+    //set up a if/else statment to check wat
+    if (ul.classList.contains(active)) {
+      ul.classList.remove(active);
+      ul.classList.add(hidden);
+      console.log("active");
+    } else if (ul.classList.contains(hidden)) {
+      ul.classList.remove(hidden);
+      ul.classList.add(active);
+      console.log("hidden");
+    } else {
+      console.log("somting is wrong");
+    }
+  }
 });
-const teamSwitch = document.querySelector("#teamSwitch");
+const teamSwitch = document.getElementById("teamSwitch");
 
 teamSwitch.addEventListener("click", function () {
   teamswitshFunction("sun", "moon");
 });
 
-const Hovedside = document.querySelector("#Hovedside");
+const Hovedside = document.getElementById("Hovedside");
 Hovedside.addEventListener("click", function () {
   //teamswitshBUTTON("buttonClass", "HovedsideButtonClass");
 });
