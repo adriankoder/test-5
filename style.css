@@ -94,11 +94,23 @@ p {
 .KontaktConteiner {
   font-size: 1rem;
 }
+<<<<<<< HEAD
 .TryllingClass {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+=======
+.KontaktConteiner{
+font-size: 1rem;
+}
+.TryllingClass{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+>>>>>>> 9b12ee65530fde04ea6aee261e4b854139b16ffe
 }
 
 .andini {
