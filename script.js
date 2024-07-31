@@ -11,7 +11,7 @@ for (let i = 0; i < menyknapper.length; i++) {
   menyknapper[i].addEventListener("mouseover", (e) => {
     if (e.target.id === "Hovedside") {
       //HOVEDSIDEKNAPP
-      bildeSomByttes.src = "./asset/andini-med-kanin.jpg";
+      bildeSomByttes.src = "./asset/Andini-med-kanin-oval.jpg";
       TryllingID.innerHTML = `
           <h2>Hovedside</h2>
           <p>Bor du i Bergen eller omegn og skal feire bursdag, holde firmafest,
@@ -22,8 +22,8 @@ for (let i = 0; i < menyknapper.length; i++) {
 
     if (e.target.id === "Trylling") {
       //TRYLLINGKNAPP
-      bildeSomByttes.src = "/asset/andini-med-kanin.jpg";
-      bildeSomByttes.style.opacity = 0;
+      bildeSomByttes.src = "/asset/Andini-med-kanin-oval.jpg";
+      //
       TryllingID.innerHTML = `
           <h2>Trylleshow</h2>
           <p>Trylleshowene mine varer ca. 30-40 minutter, og inneholder mye humor
@@ -44,7 +44,7 @@ for (let i = 0; i < menyknapper.length; i++) {
 
     if (e.target.id === "Balonggjøgling") {
       //GJØGLINGKNAPP
-      bildeSomByttes.src = "./asset/ballonggj.jpg";
+      bildeSomByttes.src = "./asset/BallongOval.jpg";
       TryllingID.innerHTML = `
           <h2>Ballonggjøgling</h2>
           <p>Jeg har drevet med barneunderholdning siden 1994, da jeg som 14-åring

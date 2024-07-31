@@ -107,7 +107,7 @@ p {
   flex-direction: column;
   align-items: center;
   margin: 5px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .hvor_lenge_har_holt_po {
@@ -175,6 +175,7 @@ h2 {
   justify-content: center;
   align-items: center;
   margin-top: 0px;
+  margin-bottom: 50px;
 }
 .Bor_du_i_Bergen {
   display: flex;
