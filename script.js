@@ -13,7 +13,7 @@ for (let i = 0; i < menyknapper.length; i++) {
       //HOVEDSIDEKNAPP
       bildeSomByttes.src = "./asset/Andini-med-kanin-oval.jpg";
       TryllingID.innerHTML = `
-          <h2>Hovedside</h2>
+          <h2>HOVEDIDE</h2>
           <p>Bor du i Bergen eller omegn og skal feire bursdag, holde firmafest,
           lage til juletrefest eller andre barnearrangement Jeg har drevet med
           Sett prikken over i-en med et fortryllende barne- og familieshow.</p>
@@ -25,7 +25,7 @@ for (let i = 0; i < menyknapper.length; i++) {
       bildeSomByttes.src = "/asset/Andini-med-kanin-oval.jpg";
       //
       TryllingID.innerHTML = `
-          <h2>Trylleshow</h2>
+          <h2>TRYLLESHOW</h2>
           <p>Trylleshowene mine varer ca. 30-40 minutter, og inneholder mye humor
           og gimmicks der barna sitter igjen med en opplevelse av at det var de
           som tryllet. Jeg aktiviserer dem mye, bruker dem som assistenter og
@@ -46,7 +46,7 @@ for (let i = 0; i < menyknapper.length; i++) {
       //GJØGLINGKNAPP
       bildeSomByttes.src = "./asset/BallongOval.jpg";
       TryllingID.innerHTML = `
-          <h2>Ballonggjøgling</h2>
+          <h2>BALLONGGJØGLING</h2>
           <p>Jeg har drevet med barneunderholdning siden 1994, da jeg som 14-åring
           vant min første lokale talentiade. Siden den gang er tryllingen blitt
           en del av meg, en livsstil som jeg aldri kan slutte med</p>
@@ -57,7 +57,7 @@ for (let i = 0; i < menyknapper.length; i++) {
       //SUKKERSPINNKNAPP
       bildeSomByttes.src = "./asset/sukkerspinn (1).bmp";
       TryllingID.innerHTML = `
-          <h2>Sukkerspinnmaskin</h2>
+          <h2>SUKKERSPINNMASKIN</h2>
           <p>Da jeg var liten var sukkerspinn noe av det beste og mest
           stemningsskapende jeg visste. Jeg har derfor anskaffet meg en meget
           produksjonseffektiv og solid maskin som jeg leier ut i kombinasjon med
