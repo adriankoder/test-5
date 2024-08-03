@@ -23,7 +23,7 @@ for (let i = 0; i < menyknapper.length; i++) {
     if (e.target.id === "Trylling") {
       //TRYLLINGKNAPP
       bildeSomByttes.src = "/asset/Andini-med-kanin-oval.jpg";
-      //
+
       TryllingID.innerHTML = `
           <h2>TRYLLESHOW</h2>
           <p>Trylleshowene mine varer ca. 30-40 minutter, og inneholder mye humor
@@ -113,35 +113,14 @@ for (let i = 0; i < menyknapper.length; i++) {
   });
 }
 
-// Setter display-stil på de ulike elementene
-// andini_med_kanin.style.opacity = 1;
-// pElement.style.display = "none";
-// iframe.style.display = "Block";
-// // KontaktIfo.style.display = "none";
-// KontaktConteiner.style.display = "none"; // Sjekk om dette er korrekt ID
-// telefon.style.display = "none";
-// TrylleshowID.style.display = "none";
-// TryllingID.style.display = "none";
-// ballonggjimgid.style.display = "none"; // Endret fra ballonggjimg til ballonggjimgid
-// Sukkerspinnmaskinp.style.display = "none";
-// Ballonggjøgling.style.display = "none";
-// Ballonggjøglingh2.style.display = "none";
-// Sukkerspinnmaskin.style.display = "none";
-
-// footer.style.display = "block";
-// Bor_du_i_Bergen.style.display = "block";
-// hvor_lenge_har_holt_poID.style.display = "block";
-
 // Lytte etter klikk på hamburgermeny-knappen
 const hamburgerimg = document.getElementById("hamburgermeny");
-// console.log(hamburgerimg);
 
 hamburgerimg.addEventListener("click", function () {
   hamburgertoggle("active", "hidden");
   function hamburgertoggle(active, hidden) {
     //get  a element from html
     const ul = document.getElementById("buttondiv");
-    // console.log(ul)
     //set up a if/else statment to check wat
     if (ul.classList.contains(active)) {
       ul.classList.remove(active);
@@ -152,7 +131,6 @@ hamburgerimg.addEventListener("click", function () {
       ul.classList.add(active);
       console.log("hidden");
     } else {
-      console.log("somting is wrong");
     }
   }
 });
@@ -163,18 +141,4 @@ teamSwitch.addEventListener("click", function () {
 });
 
 const Hovedside = document.getElementById("Hovedside");
-Hovedside.addEventListener("click", function () {
-  //teamswitshBUTTON("buttonClass", "HovedsideButtonClass");
-});
-// Import av funksjoner
-
-// // Kall på funksjoner
-// BalonggjøglingFunction();
-// hovedsideKnappfunction();
-// kontaktKnappfunction();
-// sukkerspinnKnappFunction();
-// tryllingKnappFunction();
-// teamswitshFunction();
-// teamswitshBUTTON();
-// hamburgertoggle();
-//test();
+Hovedside.addEventListener("click", function () {});
