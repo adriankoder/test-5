@@ -1,5 +1,5 @@
 const buttonClass = "color";
-const originalButtonClass = "button2";
+const originalButtonClass = "menyvalg";
 const hovedsideClass = "Hovedside";
 
 function resetButtons(buttons, originalClass, activeClass) {
