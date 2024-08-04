@@ -12,7 +12,7 @@ body {
 .moon {
   background-color: black;
   color: white;
-  /* text-shadow: blue 9px 2px; */
+  text-shadow: blue 9px 2px;
 }
 .iconzize {
   width: 50px;
@@ -119,6 +119,7 @@ p {
   align-items: center;
   margin: 5px;
   margin-bottom: 50px;
+  text-shadow: blue 9px 2px;
 }
 
 .hvor_lenge_har_holt_po {
@@ -129,13 +130,27 @@ p {
 
 h1,
 h1 {
+  font-size: 40px;
   font-family: monospace;
-  text-shadow: blue 9px 2px;
 }
-
 .Tryllekunstneren {
   font-size: 40px;
+  font-family: monospace;
+  text-shadow: blue 2px 2px;
 }
+
+/* .TryllekunstnerenLight {
+  text-shadow: none;
+} */
+/* .dark {
+  font-size: 40px;
+  text-shadow: blue 9px 2px;
+} */
+/* .Light {
+  font-size: 40px;
+  color: black;
+  text-shadow: none;
+} */
 
 .anders-tørkle {
   width: 370px;
