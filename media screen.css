@@ -75,7 +75,7 @@ flex-direction: column;} */
   }
 
   header {
-    display: none;
+    display: block;
   }
 
   .anders-tørkle {
