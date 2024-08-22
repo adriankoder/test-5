@@ -7,11 +7,12 @@
   margin-top: 0px;
 }
 .buttondiv {
+  position: fixed;
+  top: 0px;
   display: flex;
   flex-direction: row;
   justify-content: end;
   align-items: end;
-  bottom:0%;
   width: 100%;
   z-index: 500; /* Ensure it is above other elements */
 }
