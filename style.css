@@ -12,7 +12,7 @@ body {
 .moon {
   background-color: black;
   color: white;
-  text-shadow: blue 9px 2px;
+  /* text-shadow: blue 9px 2px; */
 }
 .iconzize {
   width: 50px;
@@ -62,8 +62,7 @@ body {
   align-items: center;
   margin-top: 0px;
   margin-bottom: 50px;
-  margin-left: 15px;
-}
+  margin-left: 15px;;}
 /* .menyvalg{
     color: white;
     background-color: rgb(179, 179, 254);   
@@ -279,6 +278,6 @@ h2 {
 
 .kontaktinfo {
   margin: 0px;
-  font-size: 25px;
-  max-width: 27rem;
+  font-size: 30px;
+  max-width: 26.5rem;
 }

@@ -13,7 +13,7 @@ for (let i = 0; i < menyknapper.length; i++) {
       //HOVEDSIDEKNAPP
       bildeSomByttes.src = "./asset/Andini-med-kanin-oval.jpg";
       TryllingID.innerHTML = `
-          <h2>HOVEDIDE</h2>
+          <h2>HOVEDSIDE</h2>
           <p>Bor du i Bergen eller omegn og skal feire bursdag, holde firmafest,
           lage til juletrefest eller andre barnearrangement Jeg har drevet med
           Sett prikken over i-en med et fortryllende barne- og familieshow.</p>

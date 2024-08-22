@@ -1,12 +1,39 @@
-/* @media screen and (max-width: 1024){
-body{
+@media screen and (max-width: 1024px){
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  margin-top: 0px;
+}
+.buttondiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  bottom:0%;
+  width: 100%;
+  z-index: 500; /* Ensure it is above other elements */
+}
+.overskrift{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-} */
 
+.andini_med_kanin{
+  width: 25rem;
+  height: auto;
+
+}
+.buttondiv{
+
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 768px) {
   body {
     margin: 0;
@@ -171,4 +198,5 @@ justify-content: start;} */
   .iframe {
     display: none;
   }
+}
 }
