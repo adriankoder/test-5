@@ -16,7 +16,7 @@ for (let i = 0; i < menyknapper.length; i++) {
           <h2>Hovedside</h2>
           <p>Bor du i Bergen eller omegn og skal feire bursdag, holde firmafest,
           lage til juletrefest eller andre barnearrangement Jeg har drevet med
-          Sett prikken over i-en med et fortryllende barne- og familieshow.</p>
+          Sett prikken over i-en med et fortryllende barne- og familiesho w.</p>
           `;
     }
 
