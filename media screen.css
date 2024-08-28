@@ -1,9 +1,7 @@
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 2003px) {
   * {
     box-sizing: border-box;
   }
-
-
   body {
     margin: 0;
     overflow-y: scroll;
@@ -25,7 +23,7 @@
     /* display: flex;
     flex-direction: column; */
     width: 270px;
-    height: auto;
+    height: 200px;
     border-radius: 50%;
   }
   .TrylleshowDiv {
@@ -58,11 +56,150 @@
     background-color: blue;
     font-size: 14px;
   }
-  .menyvalg {
+  .buttondiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+  }
+  /* .menyvalg{
+    color: white;
+    background-color: rgb(179, 179, 254);   
+} */
+  p {
+    font-size: 20px;
+    /* inline-size: 90%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* inline-size: 80%; */
+  }
+
+  .Bor_du_i_Bergen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .andini_tryllekunstneren {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100rem; */
+    /* padding-right: 100px;
+    padding-left: 150px; */
+    /* padding-right: 150px; */
+  }
+  /* .pElement {
+  inline-size: 25rem;
+} */
+  .fixed {
+    font-size: 1rem;
+  }
+  .pElement {
+    display: none;
+  }
+  .KontaktConteiner {
+    font-size: 1rem;
+  }
+  .TryllingClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .andini {
+    font-size: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 50px;
+    text-shadow: blue 9px 2px;
+  }
+
+  .hvor_lenge_har_holt_po {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1,
+  h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+  }
+}
+@media screen and (max-width: 1550px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    overflow-y: scroll;
+  }
+  .sun {
+    background-color: white;
+    color: black;
+  }
+  .moon {
+    background-color: black;
+    color: white;
+    text-shadow: blue 9px 2px;
+  }
+  .iconzize {
+    width: 50px;
+    height: 50px;
+  }
+  /* .andini_med_kanin { */
+  /* display: flex;
+    flex-direction: column; */
+  /* width: 270px;
+    height: auto;
+    border-radius: 50%;
+  } */
+  .TrylleshowDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bor_du_i_BergenDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .BallonggjøglingClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sukkerspinnDIV {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .menyvalg {
+    color: white;
+    background-color: blue;
+    font-size: 14px;
+  } */
+  /* .menyvalg {
     color: white;
     background-color: none;
     font-size: 14px;
-  }
+  } */
   .buttondiv {
     display: flex;
     flex-direction: row;
@@ -134,8 +271,7 @@
     /* margin: 5px; */
     margin-bottom: 0px;
     text-shadow: blue 9px 2px;
-      font-family: "Sofia", sans-serif;
-
+    font-family: "Sofia", sans-serif;
   }
 
   .hvor_lenge_har_holt_po {
@@ -151,7 +287,7 @@
   }
   .Tryllekunstneren {
     font-size: 40px;
-     font-family: "arial", sans-serif;
+    font-family: "arial", sans-serif;
     text-shadow: blue 2px 2px;
   }
 
@@ -301,7 +437,7 @@
   .kontaktinfo {
     margin: 0px;
     font-size: 25px;
-    max-width: 280px;
+    max-width: 363px;
   }
 }
 
@@ -356,7 +492,7 @@
     display: flex;
 flex-direction: column;} */
   .andini_med_kanin {
-    width: 100%;
+    width: 300px;
     height: auto;
   }
   /* {   
@@ -430,13 +566,13 @@ flex-direction: column;} */
 
   .Tryllekunstneren {
     font-size: 30px;
-  
+
     /* margin-bottom: 100px; */
     margin-top: 50px;
   }
   .Sukkerspinnmaskin {
-    width: 250px;
-    height: 150px;
+    width: 270px;
+    height: 170;
   }
   .ballonggj {
     width: 200px;
