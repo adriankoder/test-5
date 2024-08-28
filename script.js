@@ -12,6 +12,7 @@ for (let i = 0; i < menyknapper.length; i++) {
     if (e.target.id === "Hovedside") {
       //HOVEDSIDEKNAPP
       bildeSomByttes.src = "./asset/Andini-med-kanin-oval.jpg";
+      bildeSomByttes.alt = "Andini med kanin";
       TryllingID.innerHTML = `
           <h2>Hovedside</h2>
           <p>Bor du i Bergen eller omegn og skal feire bursdag, holde firmafest,
@@ -23,7 +24,7 @@ for (let i = 0; i < menyknapper.length; i++) {
     if (e.target.id === "Trylling") {
       //TRYLLINGKNAPP
       bildeSomByttes.src = "/asset/Andini-med-kanin-oval.jpg";
-
+      bildeSomByttes.alt = "Andini med kanin";
       TryllingID.innerHTML = `
           <h2>TRYLLESHOW</h2>
           <p>Trylleshowene mine varer ca. 30-40 minutter, og inneholder mye humor
@@ -45,6 +46,8 @@ for (let i = 0; i < menyknapper.length; i++) {
     if (e.target.id === "Balonggjøgling") {
       //GJØGLINGKNAPP
       bildeSomByttes.src = "./asset/BallongOval.jpg";
+      bildeSomByttes.alt =
+        "bilde av en Ballonggjøgling/en som bretter balonger";
       TryllingID.innerHTML = `
           <h2>BALLONGGJØGLING</h2>
           <p>Jeg har drevet med barneunderholdning siden 1994, da jeg som 14-åring
@@ -56,6 +59,7 @@ for (let i = 0; i < menyknapper.length; i++) {
     if (e.target.id === "Sukkerspinn") {
       //SUKKERSPINNKNAPP
       bildeSomByttes.src = "./asset/sukkerspinn (1).bmp";
+      bildeSomByttes.alt = "bilde av en sukkerspinmaskin";
       TryllingID.innerHTML = `
           <h2>SUKKERSPINNMASKIN</h2>
           <p>Da jeg var liten var sukkerspinn noe av det beste og mest
@@ -106,6 +110,7 @@ for (let i = 0; i < menyknapper.length; i++) {
         tlf;
 
       kontaktInfo.innerHTML = combined;
+      kontaktInfo.alt = "kontaktinformasjon tlf. +47 40834567 og epost andini@tryllekunstneren.no";
     } else {
       bildeSomByttes.style.display = "block";
       kontaktInfo.innerHTML = "";
@@ -115,7 +120,7 @@ for (let i = 0; i < menyknapper.length; i++) {
 
 // Lytte etter klikk på hamburgermeny-knappen
 const hamburgerimg = document.getElementById("hamburgermeny");
-
+hamburgerimg.alt = "meny knapp";
 hamburgerimg.addEventListener("click", function () {
   hamburgertoggle("active", "hidden");
   function hamburgertoggle(active, hidden) {
@@ -135,7 +140,7 @@ hamburgerimg.addEventListener("click", function () {
   }
 });
 const teamSwitch = document.getElementById("teamSwitch");
-
+teamSwitch.alt = "bytt mellom lys og mørt tema";
 teamSwitch.addEventListener("click", function () {
   teamswitshFunction("sun", "moon");
 });
